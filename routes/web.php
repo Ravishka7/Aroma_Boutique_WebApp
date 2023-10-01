@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\AdminController;
 
 /*
 |--------------------------------------------------------------------------
@@ -32,25 +34,48 @@ Route::middleware([
 Route::get('redirects','App\Http\Controllers\HomeController@index');
 
 
+Route::get('/view_category',[AdminController::class,'view_category']);
+Route::post('/add_category',[AdminController::class,'add_category']);
+Route::get('/delete_category/{id}',[AdminController::class,'delete_category']);
+Route::get('/view_product',[AdminController::class,'view_product']);
+Route::post('/add_product',[AdminController::class,'add_product']);
+Route::get('/show_product',[AdminController::class,'show_product']);
+Route::get('/delete_product/{id}',[AdminController::class,'delete_product']);
+Route::get('/update_product/{id}',[AdminController::class,'update_product']);
+Route::post('/update_product_confirm/{id}',[AdminController::class,'update_product_confirm']);
+Route::get('/order',[AdminController::class,'order']);
+Route::get('/delivered/{id}',[AdminController::class,'delivered']);
+Route::get('/downlaod_pdf/{id}',[AdminController::class,'downlaod_pdf'])->name('download_pdf');
+Route::get('/search',[AdminController::class,'searchdata']);
+Route::get('/search_pro',[AdminController::class,'searchdatapro']);
 
-Route::get('/customer/wperfume', function () {
-    return view('customer.wperfume');
-})->name('wperfume');
 
-Route::get('/customer/wp1', function () {
-    return view('customer.wp1');
-})->name('wp1');
 
-Route::get('/customer/wp2', function () {
-    return view('customer.wp2');
-})->name('wp2');
+Route::get('/customer/wperfume', [HomeController::class, 'wperfume'])->name('wperfume');
+Route::get('/customer/mperfume', [HomeController::class, 'mperfume'])->name('mperfume');
 
-Route::get('/customer/wp3', function () {
-    return view('customer.wp3');
-})->name('wp3');
+Route::get('/product_details/{id}',[HomeController::class,'product_details']);
 
-Route::get('/customer/wp4', function () {
-    return view('customer.wp4');
-})->name('wp4');
+Route::post('/add_cart/{id}',[HomeController::class,'add_cart']);
+Route::get('/show_cart',[HomeController::class,'show_cart'])->name('show_cart');
+Route::get('/remove_cart/{id}',[HomeController::class,'remove_cart']);
+Route::get('/cash_order',[HomeController::class,'cash_order']);
+Route::get('/show_order',[HomeController::class,'show_order']);
+Route::get('/cancel_order/{id}',[HomeController::class,'cancel_order']);
+
+Route::get('/stripe/{totalprice}', [HomeController::class, 'stripe']);
+Route::post('stripe/{totalprice}',[HomeController::class, 'stripePost'])->name('stripe.post');
+
+
+
+
+Route::get('/customer/dashboard', function () {
+    return view('customer.dashboard');
+})->name('customer.dashboard');
+
+
+
+
+
 
 
