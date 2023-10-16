@@ -1,9 +1,8 @@
 ## E-commerce Website For A Perfume Store
-
 ![ss aroma 2](https://github.com/Ravishka7/Aroma_Boutique_WebApp/assets/107683747/88cb91a4-fde1-42c2-ace4-4fe040a51e5a)
 
 ## Table of Contents
-### Premium Partners
+
 
 - **[Vehikl](https://vehikl.com/)**
 - **[Tighten Co.](https://tighten.co)**
@@ -19,18 +18,25 @@
 - **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
 - **[Lendio](https://lendio.com)**
 
-## Contributing
+## Introduction
+This project is an e-commerce solution which is designed to streamlne the perfume selling process by providing customers with a seamless shopping experience and effectively managing sales activities and customer relationships.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## Features
 
-## Code of Conduct
+-User-friendly.
+-Detailed perfume descriptions.
+-Secure payment options.
+-Centralized customer data, including contact information and order history.
+-Order management with real-time order status tracking.
+-Analytics and reporting capabilities for data-driven decision-making.
+-Personalized recommendations.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## Installation
 
-## Security Vulnerabilities
+1.Clone the repository:
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
+## Usage
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## CRM System
