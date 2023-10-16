@@ -32,13 +32,37 @@ This project is an e-commerce solution which is designed to streamlne the perfum
 ```
 git clone https://github.com/Ravishka7/Aroma_Boutique_WebApp.git
 ```
-2. In your terminal which is opened in the root directory enter the following commands:
+2. Move to the folder:
 
 ```
-composer install
+cd <path of the application>
 npm install
 npm run dev
 ```
+3. Install composer packages
+ ```
+   composer install
+ ```
+4. Install npm packages
+```
+npm install
+```
+5. Create .env file
+6. Generate an app encription key
+```
+php artisan key:generate
+```
+7. Create a database and it's credentials to the .env file
+8. Run the migrations
+```
+php artisan migrate
+```
+9. Run the project
+```
+npm run dev
+php artisan migrate
+```
+
 ## Project Document
 
 [SSP2 DOC.docx](https://github.com/Ravishka7/Aroma_Boutique_WebApp/files/12913663/SSP2.DOC.docx)
