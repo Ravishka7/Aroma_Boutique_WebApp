@@ -58,7 +58,7 @@ php artisan migrate
 9. Run the project
 ```
 npm run dev
-php artisan migrate
+php artisan serve
 ```
 
 ## Project Document
