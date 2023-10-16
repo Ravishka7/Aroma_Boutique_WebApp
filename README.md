@@ -9,6 +9,8 @@
 - **Features**
 - **Installation**
 - **Project Document**
+- **Technologies Used**
+- **Licence**
 
 ## Introduction
 This project is an e-commerce solution which is designed to streamlne the perfume selling process by providing customers with a seamless shopping experience and effectively managing sales activities and customer relationships.
@@ -40,3 +42,14 @@ npm run dev
 ## Project Document
 
 [SSP2 DOC.docx](https://github.com/Ravishka7/Aroma_Boutique_WebApp/files/12913663/SSP2.DOC.docx)
+
+## Technologies Used
+
+- **Laravel Jetstream**
+- **Livewire**
+- **Tailwind CSS**
+- **MySQL Database**
+
+## Licence
+
+Licensed under the [MIT license](https://opensource.org/licenses/MIT).
