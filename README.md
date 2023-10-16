@@ -36,8 +36,6 @@ git clone https://github.com/Ravishka7/Aroma_Boutique_WebApp.git
 
 ```
 cd <path of the application>
-npm install
-npm run dev
 ```
 3. Install composer packages
  ```
