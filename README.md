@@ -1,8 +1,9 @@
-## E-commerce Website For A Perfume Store
+# E-commerce Website For A Perfume Store
 ![ss aroma 2](https://github.com/Ravishka7/Aroma_Boutique_WebApp/assets/107683747/88cb91a4-fde1-42c2-ace4-4fe040a51e5a)
 
-## Table of Contents
+![ad3](https://github.com/Ravishka7/Aroma_Boutique_WebApp/assets/107683747/5cd88210-2a49-4f72-b2d9-0363c7e17b10)
 
+## Table of Contents
 
 - **Introduction**
 - **Features**
