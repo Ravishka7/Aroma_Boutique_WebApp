@@ -23,8 +23,8 @@ This project is an e-commerce solution which is designed to streamlne the perfum
 
 ## Features
 
-- **[User-friendly.]**
-- **[Detailed perfume descriptions.]**
+- **User-friendly.**
+- **Detailed perfume descriptions.**
 - **Secure payment options.**
 - **Centralized customer data, including contact information and order history.**
 - **Order management with real-time order status tracking.**
@@ -34,6 +34,10 @@ This project is an e-commerce solution which is designed to streamlne the perfum
 ## Installation
 
 1.Clone the repository:
+
+```
+git clone https://github.com/Ravishka7/Aroma_Boutique_WebApp.git
+```
 
 ## Usage
 
