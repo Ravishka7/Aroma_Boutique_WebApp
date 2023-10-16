@@ -7,10 +7,10 @@
 
 - [Introduction](#introduction)
 - [Features](#features)
-- **Installation**
-- **Project Document**
-- **Technologies Used**
-- **Licence**
+- [Installation](#installation)
+- [Project Document](#project-document)
+- [Technologies Used](#technologies-used)
+- [License](#license)
 
 ## Introduction
 This project is an e-commerce solution which is designed to streamlne the perfume selling process by providing customers with a seamless shopping experience and effectively managing sales activities and customer relationships.
@@ -72,6 +72,6 @@ php artisan migrate
 - **Tailwind CSS**
 - **MySQL Database**
 
-## Licence
+## License
 
 Licensed under the [MIT license](https://opensource.org/licenses/MIT).
