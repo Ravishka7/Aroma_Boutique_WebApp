@@ -5,8 +5,8 @@
 
 ## Table of Contents
 
-- **Introduction**
-- **Features**
+- [Introduction](#introduction)
+- [Features](#features)
 - **Installation**
 - **Project Document**
 - **Technologies Used**
