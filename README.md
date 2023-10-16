@@ -23,13 +23,13 @@ This project is an e-commerce solution which is designed to streamlne the perfum
 
 ## Features
 
--User-friendly.
--Detailed perfume descriptions.
--Secure payment options.
--Centralized customer data, including contact information and order history.
--Order management with real-time order status tracking.
--Analytics and reporting capabilities for data-driven decision-making.
--Personalized recommendations.
+-**User-friendly.
+-**Detailed perfume descriptions.
+-**Secure payment options.
+-**Centralized customer data, including contact information and order history.
+-**Order management with real-time order status tracking.
+-**Analytics and reporting capabilities for data-driven decision-making.
+-**Personalized recommendations.
 
 ## Installation
 
