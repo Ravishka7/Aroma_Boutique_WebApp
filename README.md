@@ -50,7 +50,7 @@ npm install
 ```
 php artisan key:generate
 ```
-7. Create a database and it's credentials to the .env file
+7. Create a database and add it's credentials to the .env file
 8. Run the migrations
 ```
 php artisan migrate
