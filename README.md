@@ -7,6 +7,7 @@
 
 - [Introduction](#introduction)
 - [Features](#features)
+- [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Project Document](#project-document)
 - [Technologies Used](#technologies-used)
@@ -24,6 +25,16 @@ This project is an e-commerce solution which is designed to streamlne the perfum
 - **Order management with real-time order status tracking.**
 - **Analytics and reporting capabilities for data-driven decision-making.**
 - **Personalized recommendations.**
+
+## Prerequisites
+
+Before getting started, make sure you have the following software and dependencies installed on your system.
+
+- **Composer**
+- **Node.js**
+- **NPM**
+- **PHP**
+- XAMPP or WAMP server for PHP and MySQL
 
 ## Installation
 
