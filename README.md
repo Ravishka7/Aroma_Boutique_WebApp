@@ -25,12 +25,12 @@ This project is an e-commerce solution which is designed to streamlne the perfum
 
 ## Installation
 
-1.Clone the repository:
+1. Clone the repository:
 
 ```
 git clone https://github.com/Ravishka7/Aroma_Boutique_WebApp.git
 ```
-2.In your terminal which is opened in the root directory enter the following commands:
+2. In your terminal which is opened in the root directory enter the following commands:
 
 ```
 composer install
